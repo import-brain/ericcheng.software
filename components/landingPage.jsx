@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Container, Text, Link, SimpleGrid } from '@chakra-ui/react'
+import { Box, Container } from '@chakra-ui/react'
 import Button from '@mui/material/Button'
 
 export const LandingPage = () => {
@@ -13,6 +13,7 @@ export const LandingPage = () => {
 
             <Box bg="black" color="white" className='contact-buttons'>
                 <Button href='https://github.com/import-brain' variant='contained' color='primary'>GitHub</Button>
+                <Button href='mailto:ericcheng9316@gmail.com' variant='contained' color='primary'>Email</Button>
             </Box>
         </Box>
     )
