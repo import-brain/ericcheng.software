@@ -114,3 +114,12 @@
     flex-direction: column;
   }
 }
+
+.orange {
+  color: rgb(252, 164, 0);
+}
+
+.BlinkMacSystemFont {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
