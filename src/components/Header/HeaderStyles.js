@@ -17,6 +17,10 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+  font-size: 2.5rem;
+`;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -70,7 +74,7 @@ export const ContactDropDown = styled.button`
   font-size: 1.7rem;
 
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255);
   cursor: pointer;
   transition: 0.3s ease;
 
