@@ -1,10 +1,17 @@
 import React from 'react'
 import { Box, Container } from '@chakra-ui/react'
 import Button from '@mui/material/Button'
+import TypeIt from "typeit-react";
 
 export const LandingPage = () => {
     return (
         <Box bg="black" color="white" className='page'>
+            <Box id='welcome-typeit'>
+                <Container className='welcome-text'>
+                    <TypeIt>Hi, I&#39;m Eric.</TypeIt>
+                </Container>
+            </Box>
+
             <Box className='main-content'>
                 <Container className='main-text'>
                     <Button variant='contained'>test</Button>
