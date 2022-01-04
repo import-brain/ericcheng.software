@@ -14,19 +14,14 @@ const Projects = () => (
     </SectionTitleTyped>
     <GridContainer>
       {projects.map((project) => (
-        <div>
-          {project.image}
-          <br />
-          {project.title}
-          <br />
-          {project.description}
-          <br />
-          {project.techUsed}
-          <br />
-          {project.visit}
-          <br />
-          {project.source}
-        </div>
+        <BlogCard key={project.id}>
+          <Img src={project.image} />
+          <TitleContent>
+            <HeaderThree>{project.title}</HeaderThree>
+            <Hr />
+          </TitleContent>
+          <CardInfo>{project.description}</CardInfo>
+        </BlogCard>
       ))}
     </GridContainer>
   </Section>

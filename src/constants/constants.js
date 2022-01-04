@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Express.js',
     description: "Triage issues and help maintain the Express.js framework.",
-      image: '/images/express.jpg',
+      image: '/images/express.png',
       tags: ['Express', 'JavaScript', 'Node.js', 'npm'],
     source: 'https://github.com/expressjs/express',
     visit: 'https://expressjs.com/',
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'This Website!',
     description: "Developed this website using React.js, Next.js, Material-UI, Styled-Components, and TypeIt.js.",
-      image: '/images/this_website.jpg',
+      image: '/images/this_website.png',
       tags: ['React', 'Next', 'Material-UI', 'Styled-Components', 'TypeIt', 'npm', 'Node.js', 'git', 'JavaScript'],
     source: 'https://github.com/import-brain/ericcheng.software',
     visit: 'https://ericcheng.software',
@@ -21,8 +21,8 @@ export const projects = [
   },
   {
     title: 'Elemenpy',
-    description: "Wrote a Python module that helps you to execute operations using elements in the periodic table.",
-      image: '/images/elemenpy.png',
+    description: "Wrote a Python module that helps users execute operations using elements in the periodic table.",
+      image: '/images/elemenpy.webp',
       tags: ['Python', 'pip', 'pypi'],
     source: 'https://github.com/import-brain/elemenpy',
     visit: 'https://pypi.org/project/elemenpy/',
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'basic_calc',
     description: "Wrote and shipped a small calculator utility using Python that can perform the four basic arithmetic operations, square root, circle area, trig functions, and more.",
-    image: '/images/basic_calc.jpg',
+    image: '/images/basic_calc.webp',
     tags: ['Python', 'PyInstaller', 'git'],
     source: 'https://github.com/import-brain/basic_calc',
     visit: 'https://github.com/import-brain/basic_calc',
