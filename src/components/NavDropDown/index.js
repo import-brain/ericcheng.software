@@ -1,8 +1,11 @@
 import React from 'react'
-import { AiFillPhone, AiOutlineMail } from 'react-icons/ai'
-import { FaLocationArrow } from "react-icons/fa"
 
-import { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer } from './NavDropDown'
+import dynamic from 'next/dynamic'
+
+const { AiFillPhone, AiOutlineMail } = dynamic(() => import('react-icons/ai'))
+const { FaLocationArrow } = dynamic(() => import("react-icons/fa"))
+
+const { DropDownContainer, DropDownIcon, DropDownItem, DropDownItemDesc, DropDownItemTitle, DropDownTextContainer } = dynamic(() => import('./NavDropDown'))
 
 const NavDropDown = (props) => (
   <div>
