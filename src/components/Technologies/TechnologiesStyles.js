@@ -30,6 +30,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
+  direction: row;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 3rem 0;
