@@ -24,6 +24,13 @@ const Header = () =>  (
 
     <Div2>
       <Stack direction="row">
+
+      <ListItem>
+          <Link href="#about">
+            <NavLink>About</NavLink>
+          </Link>
+        </ListItem>
+
         <ListItem>
           <Link href="#tech">
             <NavLink>Technologies</NavLink>
@@ -33,12 +40,6 @@ const Header = () =>  (
         <ListItem>
           <Link href="#projects">
             <NavLink>Projects</NavLink>
-          </Link>
-        </ListItem>
-
-        <ListItem>
-          <Link href="#about">
-            <NavLink>About</NavLink>
           </Link>
         </ListItem>
       </Stack>
