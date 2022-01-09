@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle, SectionTitleTyped } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitleTyped } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -13,7 +13,7 @@ const Hero = () => (
         <TypeIt>Hi, I'm Eric.</TypeIt>
       </SectionTitleTyped>
       <SectionText>
-        lorem ipsum dolor sit amet
+        A passionate high-schooler interested in full-stack web development.
       </SectionText>
       <Button onClick={() => window.location = 'mailto:ericcheng9316@gmail.com'}>
         Send me an email
