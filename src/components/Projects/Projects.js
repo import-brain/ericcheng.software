@@ -1,17 +1,15 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitleTyped } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-
-import TypeIt from 'typeit-react';
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitleTyped main>
-      <TypeIt>Projects I've Worked On</TypeIt>
-    </SectionTitleTyped>
+    <SectionTitle main>
+      Projects I've Worked On
+    </SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
