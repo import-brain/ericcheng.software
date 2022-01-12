@@ -37,48 +37,48 @@ const Technologies = () => (
         <SectionText>
           Front-End
         </SectionText>
-        <Html5 size='4rem' />
-        <Css3 size='4rem' />
-        <JsSquare size='4rem' />
-        <Typescript size='3.45rem' />
-        <ReactLogo size='4rem' />
-        <Tailwindcss size='4rem' />
+        <Html5 size='4rem' className="pad-inline"/>
+        <Css3 size='4.1rem' className="pad-inline"/>
+        <JsSquare size='4rem' className="pad-inline"/>
+        <Typescript size='3.45rem' className="pad-inline"/>
+        <ReactLogo size='4rem' className="pad-inline"/>
+        <Tailwindcss size='4rem' className="pad-inline"/>
       </ListItem>
 
       <ListItem>
         <SectionText>
           Back-End
         </SectionText>
-        <Node size='4rem' />
-        <Express size='4rem' />
+        <Node size='4rem' className="pad-inline"/>
+        <Express size='4rem' className="pad-inline"/>
       </ListItem>
 
       <ListItem>
         <SectionText>
           DevOps
         </SectionText>
-        <Linux size='4rem' />
-        <Gnubash size='4rem' />
-        <Git size='4rem' />
-        <Github size='4rem' />
-        <Nextdotjs size='4rem' />
-        <Circleci size='4rem' />
+        <Linux size='4rem' className="pad-inline"/>
+        <Gnubash size='4rem' className="pad-inline"/>
+        <Git size='4rem' className="pad-inline"/>
+        <Github size='4rem' className="pad-inline"/>
+        <Nextdotjs size='4rem' className="pad-inline"/>
+        <Circleci size='4rem' className="pad-inline"/>
       </ListItem>
 
       <ListItem>
         <SectionText>
           Programming Languages
         </SectionText>
-        <Python size='4rem' />
-        <Java size='4rem' />
+        <Python size='4rem' className="pad-inline"/>
+        <Java size='4rem' className="pad-inline"/>
       </ListItem>
 
       <ListItem>
         <SectionText>
           Testing
         </SectionText>
-        <Jest size='4rem' />
-        <Pytest size='4rem' />
+        <Jest size='4rem' className="pad-inline"/>
+        <Pytest size='4rem' className="pad-inline"/>
       </ListItem>
     </List>
     <br />
