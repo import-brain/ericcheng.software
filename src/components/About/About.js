@@ -10,7 +10,7 @@ const About = () => (
         </SectionTitle>
         <SectionText>
             Hi, my name is Eric Cheng.
-            I'm a current sophomore in high school at Green Hope High School in North Carolina.
+            I'm a current sophomore at Green Hope High School in North Carolina.
             I aspire to become a full-stack web developer with a passion for learning new technologies and building things.
             Feel free to look at my projects below!
         </SectionText>
