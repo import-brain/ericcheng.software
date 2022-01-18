@@ -9,6 +9,15 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Faker.js',
+    description: "Pull request manager and triager for the Faker.js library.",
+      image: '/images/faker.png',
+      tags: ['JavaScript', 'TypeScript', 'Node.js'],
+    source: 'https://github.com/faker-js/faker',
+    visit: 'https://fakerjs.dev',
+    id: 1,
+  },
+  {
     title: 'This Website!',
     description: "Developed this website using React.js, Next.js, Material-UI, Styled-Components, and TypeIt.js.",
       image: '/images/this_website.png',
