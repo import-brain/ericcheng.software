@@ -25,7 +25,8 @@ export const Section = styled.section`
 `
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
+  font-family: -apple-system, BlinkMacSystemFont;
+  font-weight: 700;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
@@ -55,6 +56,7 @@ export const SectionTitle = styled.h2`
 `
 
 export const SectionTitleTyped = styled.h2`
+  font-family: -apple-system, BlinkMacSystemFont;
   font-weight: 450;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
