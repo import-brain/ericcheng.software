@@ -55,10 +55,21 @@ export const projects = [
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-];
+export const timelineElements = [
+  {
+    id: 1,
+    title: "Full-Stack Web Development Intern",
+    location: "Revoteen",
+    description: "Collaborated with other developers in a live production environment to build, maintain, and enhance a social media web application using TypeScript, React, Node.js, and other development tools.",
+    date: "Feb. 2022 to Apr. 2022",
+    icon: "work"
+  },
+  {
+    id: 2,
+    title: "High School",
+    location: "Green Hope High School",
+    description: "Attended high school at Green Hope High School in Cary, North Carolina.",
+    date: "Aug. 2020 to Jun. 2024",
+    icon: "school"
+  }
+]
