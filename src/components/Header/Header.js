@@ -42,6 +42,12 @@ const Header = () =>  (
             <NavLink>Projects</NavLink>
           </Link>
         </ListItem>
+
+        <ListItem>
+          <Link href="#timeline">
+            <NavLink>Timeline</NavLink>
+          </Link>
+        </ListItem>
       </Stack>
     </Div2>
 
