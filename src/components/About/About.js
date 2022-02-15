@@ -1,17 +1,17 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
+import { Section, SectionText, AboutMeSectionTitle, SectionDivider } from '../../styles/GlobalComponents';
 
 const About = () => (
     <Section id="about">
         <SectionDivider />
-        <SectionTitle main>
+        <AboutMeSectionTitle main>
             About Me
-        </SectionTitle>
+        </AboutMeSectionTitle>
         <SectionText>
             Hi, my name is Eric Cheng.
             I'm a current sophomore at Green Hope High School in North Carolina.
-            I aspire to become a full-stack web developer with a passion for learning new technologies and building things.
+            I aspire to become a full-stack web developer with a passion for <span style={{color: '#FF4D4D'}}>learning new technologies</span> and building things.
             Feel free to look at my projects below!
         </SectionText>
     </Section>

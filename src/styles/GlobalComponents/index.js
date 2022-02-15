@@ -55,12 +55,43 @@ export const SectionTitle = styled.h2`
   }
 `
 
-export const SectionTitleTyped = styled.h2`
+export const AboutMeSectionTitle = styled.h2`
   font-family: -apple-system, BlinkMacSystemFont;
-  font-weight: 450;
+  font-weight: 700;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(90deg, #FF4D4D, #F9CB28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
+
+export const SectionTitleTyped = styled.h2`
+  font-family: -apple-system, BlinkMacSystemFont;
+  font-weight: 600;
+  font-size: ${(props) => props.main ? '65px' : '56px'};
+  line-height: ${(props) => props.main ? '72px' : '56px'};
+  background: linear-gradient(315deg, #42d392 25%, #647eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -88,7 +119,7 @@ export const SectionText = styled.p`
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;
-  font-weight: 300;
+  font-weight: 400;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
 
@@ -113,8 +144,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(315deg, #42d392 25%, #647eff)' :
+    'linear-gradient(315deg, #42d392 25%, #647eff)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -199,7 +230,7 @@ export const SecondaryBtn = styled.button`
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
-  border-radius: 50px;
+  border-radius: 10px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
   display: flex;
@@ -231,7 +262,7 @@ export const ButtonBack = styled.div`
 
 export const ButtonFront = styled.button`
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #fff;
   display: flex;
   position: absolute;
@@ -239,7 +270,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(315deg, #42d392 25%, #647eff);' : 'linear-gradient(315deg, #42d392 25%, #647eff);'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
