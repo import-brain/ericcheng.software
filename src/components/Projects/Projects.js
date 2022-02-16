@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, ProjectsSectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+
+import ProjectsButton from '../ProjectsButton';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -34,8 +36,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks class="website-link" href={p.visit}>Website</ExternalLinks>
-              <ExternalLinks class="source-code-link" href={p.source}>Source Code</ExternalLinks>
+              <ProjectsButton class="website-link" href={p.visit}>Website</ProjectsButton>
+              <ProjectsButton class="source-code-link" href={p.source}>Source Code</ProjectsButton>
             </UtilityList>
           </BlogCard>
         );
