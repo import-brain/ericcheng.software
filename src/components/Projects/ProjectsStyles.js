@@ -91,13 +91,15 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
+font-weight: 400;
 padding:1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
+cursor: pointer;
 &:hover{
   background: #801414;
-
+  transform: scale(1.05);
 }
 `;
 

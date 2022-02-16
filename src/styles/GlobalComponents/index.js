@@ -5,7 +5,7 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 1150px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -62,7 +62,7 @@ export const TimelineSectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(237deg, #06D6A0, #F9C74F);
+  background: linear-gradient(237deg, #06D6A0, #F9C74F, rgb(230, 81, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -188,6 +188,7 @@ export const SectionTitleTyped = styled.h2`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
+  margin-left: 5px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
@@ -215,6 +216,29 @@ export const SectionText = styled.p`
   font-weight: 400;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 670px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 24px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+`
+
+export const HeroSectionText = styled.p`
+  max-width: 800px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  padding-bottom: 3.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 5px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -337,6 +361,13 @@ export const ButtonBack = styled.div`
   position: relative;
   overflow: hidden;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+  margin-left: 5px;
+
+  transition: 0.3s ease;
+  &:hover {
+    transform: scale(1.025);
+    cursor: pointer;
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: ${({ alt }) => alt ? '150px' : '184px'};
