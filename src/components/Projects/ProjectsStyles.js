@@ -52,7 +52,8 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
 `;
 
 export const Intro = styled.div`

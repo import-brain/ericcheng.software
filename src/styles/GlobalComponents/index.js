@@ -387,7 +387,7 @@ export const ButtonBack = styled.div`
 export const ProjectsButtonBack = styled.div`
   width: ${({ alt }) => alt ? '100px' : '150px'};
   height: ${({ alt }) => alt ? '30px' : '48px'};
-  border-radius: 10px;
+  border-radius: 7px;
   font-size: ${({ alt }) => alt ? '15px' : '18px'};
   font-weight: 600;
   display: flex;
@@ -472,7 +472,7 @@ export const ButtonFront = styled.button`
 
 export const ProjectsButtonFront = styled.button`
   border: none;
-  border-radius: 10px;
+  border-radius: 7px;
   color: #fff;
   display: flex;
   position: absolute;
@@ -491,7 +491,7 @@ export const ProjectsButtonFront = styled.button`
   box-shadow: ${({ disabled }) => disabled ? 'inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3)' : 'none'};
 
   &:hover {
-    opacity: 0;
+    opacity: 100;
   }
   &:focus {
     outline: none;
