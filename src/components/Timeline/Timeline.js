@@ -8,7 +8,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, TimelineSectionTitle } from '../../styles/GlobalComponents';
 
 let workIconStyles = { background: "#06D6A0" };
 let schoolIconStyles = { background: "#f9c74f" };
@@ -16,9 +16,9 @@ let schoolIconStyles = { background: "#f9c74f" };
 const Timeline = () => (
     <Section id="timeline">
         <SectionDivider />
-        <SectionTitle main>
+        <TimelineSectionTitle main>
             Timeline
-        </SectionTitle>
+        </TimelineSectionTitle>
         <VerticalTimeline>
             {
                 timelineElements.map(element => {

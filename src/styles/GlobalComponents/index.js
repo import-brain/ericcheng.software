@@ -55,6 +55,99 @@ export const SectionTitle = styled.h2`
   }
 `
 
+export const TimelineSectionTitle = styled.h2`
+  font-family: -apple-system, BlinkMacSystemFont;
+  font-weight: 700;
+  font-size: ${(props) => props.main ? '65px' : '56px'};
+  line-height: ${(props) => props.main ? '72px' : '56px'};
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(237deg, #06D6A0, #F9C74F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
+
+export const TechSectionTitle = styled.h2`
+  font-family: -apple-system, BlinkMacSystemFont;
+  font-weight: 700;
+  font-size: ${(props) => props.main ? '65px' : '56px'};
+  line-height: ${(props) => props.main ? '72px' : '56px'};
+  width: max-content;
+  max-width: 100%;
+  background: linear-gradient(90deg, #7928CA, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
+
+export const ProjectsSectionTitle = styled.h2`
+  font-family: -apple-system, BlinkMacSystemFont;
+  font-weight: 700;
+  font-size: ${(props) => props.main ? '65px' : '56px'};
+  line-height: ${(props) => props.main ? '72px' : '56px'};
+  width: max-content;
+  max-width: 100%;
+  background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: ${(props) => props.main ? '56px' : '48px'};
+    line-height: ${(props) => props.main ? '56px' : '48px'};
+    margin-bottom: 12px;
+    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
+  }
+
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
+`
+
 export const AboutMeSectionTitle = styled.h2`
   font-family: -apple-system, BlinkMacSystemFont;
   font-weight: 700;

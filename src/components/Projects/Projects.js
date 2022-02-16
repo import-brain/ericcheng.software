@@ -1,15 +1,15 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, ProjectsSectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>
+    <ProjectsSectionTitle main>
       Projects I've Worked On
-    </SectionTitle>
+    </ProjectsSectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
