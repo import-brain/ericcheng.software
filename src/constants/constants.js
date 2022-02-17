@@ -61,7 +61,7 @@ export const timelineElements = [
     title: "Full-Stack Web Development Intern",
     location: "Revoteen",
     description: "Collaborated with other developers in a live production environment to build, maintain, and enhance a social media web application using TypeScript, React, Node.js, and other development tools.",
-    date: "Feb. 2022 to Apr. 2022",
+    date: "Feb. 2022",
     icon: "work"
   },
   {
@@ -69,7 +69,7 @@ export const timelineElements = [
     title: "High School",
     location: "Green Hope High School",
     description: "Attended high school at Green Hope High School in Cary, North Carolina.",
-    date: "Aug. 2020 to Jun. 2024",
+    date: "Aug. 2020",
     icon: "school"
   }
 ]
