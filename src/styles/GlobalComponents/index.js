@@ -215,7 +215,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 400;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -237,7 +237,7 @@ export const HeroSectionText = styled.p`
   line-height: 40px;
   font-weight: 400;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
   margin-left: 5px;
 
   @media ${(props) => props.theme.breakpoints.md} {
