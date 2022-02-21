@@ -58,6 +58,14 @@ export const projects = [
 export const timelineElements = [
   {
     id: 1,
+    title: "Head of Web Development",
+    location: "Pitch Labs",
+    description: "Led a collaborative team of developers and designers to build a website (pitchlabs.org) from the ground up using the latest web technologies, such as TypeScript, Next.js, React.js, Chakra-UI, and TailwindCSS for a nonprofit organization that provides business education to users.",
+    date: "Feb. 2022",
+    icon: "work"
+  },
+  {
+    id: 2,
     title: "Full-Stack Web Development Intern",
     location: "Revoteen",
     description: "Collaborated with other developers in a live production environment to build, maintain, and enhance a social media web application using TypeScript, React, Node.js, and other development tools.",
@@ -65,10 +73,10 @@ export const timelineElements = [
     icon: "work"
   },
   {
-    id: 2,
+    id: 3,
     title: "High School",
     location: "Green Hope High School",
-    description: "Attended high school at Green Hope High School in Cary, North Carolina.",
+    description: "Started high school at Green Hope High School in Cary, North Carolina.",
     date: "Aug. 2020",
     icon: "school"
   }
