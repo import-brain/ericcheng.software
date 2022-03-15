@@ -1,10 +1,9 @@
 import React from 'react';
 
-import { Section, SectionText, AboutMeSectionTitle, SectionDivider } from '../../styles/GlobalComponents';
+import { Section, SectionText, AboutMeSectionTitle } from '../../styles/GlobalComponents';
 
 const About = () => (
-    <Section id="about">
-        <SectionDivider />
+    <Section id="about" style={{display: 'flex', alignItems: "center"}}>
         <AboutMeSectionTitle main>
             About Me
         </AboutMeSectionTitle>

@@ -1,15 +1,14 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, ProjectsSectionTitle } from '../../styles/GlobalComponents';
+import { Section, ProjectsSectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 import ProjectsButton from '../ProjectsButton';
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionDivider />
-    <ProjectsSectionTitle main>
+    <ProjectsSectionTitle main style={{width: '100%', textAlign: 'center'}}>
       Projects I've Worked On
     </ProjectsSectionTitle>
     <GridContainer>

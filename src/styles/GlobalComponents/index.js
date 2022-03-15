@@ -62,7 +62,7 @@ export const TimelineSectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(237deg, #06D6A0, #F9C74F, rgb(230, 81, 0) 100%);
+  background: linear-gradient(90deg, rgb(6, 214, 160), rgb(6, 214, 160), rgb(249, 199, 79), rgb(255, 110, 64) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;

@@ -23,13 +23,12 @@ import { Java } from '@styled-icons/fa-brands/Java'
 import { Jest } from '@styled-icons/simple-icons/Jest'
 import { Pytest } from '@styled-icons/simple-icons/Pytest'
 
-import { Section, SectionDivider, SectionText, TechSectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, TechSectionTitle } from '../../styles/GlobalComponents';
 import { List, ListItem } from '@mui/material' 
 
 const Technologies = () => (
-  <Section id="tech">
-    <SectionDivider />
-    <TechSectionTitle main style={{}}>
+  <Section id="tech" style={{display: 'flex'}}>
+    <TechSectionTitle main>
       Technologies
     </TechSectionTitle>
     <List direction="row">

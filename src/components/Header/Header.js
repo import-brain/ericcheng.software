@@ -26,25 +26,25 @@ const Header = () =>  (
       <Stack direction="row">
 
       <ListItem>
-          <Link href="#about">
+          <Link href="/about">
             <NavLink>About</NavLink>
           </Link>
         </ListItem>
 
         <ListItem>
-          <Link href="#tech">
+          <Link href="/tech">
             <NavLink>Technologies</NavLink>
           </Link>
         </ListItem>
 
         <ListItem>
-          <Link href="#projects">
+          <Link href="/projects">
             <NavLink>Projects</NavLink>
           </Link>
         </ListItem>
 
         <ListItem>
-          <Link href="#timeline">
+          <Link href="/timeline">
             <NavLink>Timeline</NavLink>
           </Link>
         </ListItem>
