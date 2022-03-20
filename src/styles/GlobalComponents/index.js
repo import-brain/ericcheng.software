@@ -347,7 +347,7 @@ export const SecondaryBtn = styled.button`
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '120px' : '200px'};
   height: ${({ alt }) => alt ? 'px' : '64px'};
-  border-radius: 40px;
+  border-radius: 20px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 400;
   display: flex;
@@ -365,7 +365,7 @@ export const ButtonBack = styled.div`
 
   transition: 0.3s ease;
   &:hover {
-    transform: scale(1.025);
+    transform: scale(1.008);
     cursor: pointer;
   }
 
