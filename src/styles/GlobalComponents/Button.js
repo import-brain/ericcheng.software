@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ButtonBack, ButtonFront, ProjectsButtonBack, ProjectsButtonFront } from './index'
+import { ButtonBack, ButtonFront } from './index'
 
 const Button = (props) => (
   <ButtonBack alt={props.alt} form={props.form} disabled={props.disabled}>{props.children}

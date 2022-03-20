@@ -4,7 +4,7 @@ import { BlogCard, CardInfo, GridContainer, HeaderThree, Hr, Tag, TagList, Title
 import { Section, ProjectsSectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-import ProjectsButton from '../ProjectsButton';
+import Button from '../../styles/GlobalComponents/Button';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -35,8 +35,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ProjectsButton class="website-link" href={p.visit}>Website</ProjectsButton>
-              <ProjectsButton class="source-code-link" href={p.source}>Source Code</ProjectsButton>
+              <Button className="website-link" onClick={() => window.location = p.visit}>Website</Button>
+              <Button className="source-code-link" onClick={() => window.location = p.source}>Source Code</Button>
             </UtilityList>
           </BlogCard>
         );

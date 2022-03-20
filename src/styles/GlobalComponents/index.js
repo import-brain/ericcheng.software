@@ -345,11 +345,11 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
-  border-radius: 10px;
+  width: ${({ alt }) => alt ? '120px' : '200px'};
+  height: ${({ alt }) => alt ? 'px' : '64px'};
+  border-radius: 40px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,7 +357,7 @@ export const ButtonBack = styled.div`
   color: #fff;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
   cursor: pointer;
-  transition: 0.5s ease;
+  transition: 0.2s ease;
   position: relative;
   overflow: hidden;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
