@@ -18,6 +18,15 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'Polygon',
+    description: "User Interface Maintainer of an upcoming open-source social media network.",
+      image: '/images/polygon.png',
+      tags: ['TypeScript', 'Next.js', 'Chakra UI'],
+    source: 'https://github.com/polygon-isecure/ui',
+    visit: 'https://pre-alpha.polygon.am',
+    id: 1,
+  },
+  {
     title: 'This Website!',
     description: "Developed this website using React.js, Next.js, Material-UI, Styled-Components, and TypeIt.js.",
       image: '/images/this_website.png',
