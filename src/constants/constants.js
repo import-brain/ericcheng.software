@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Faker.js',
-    description: "Pull request manager and triager for the Faker.js library.",
+    description: "Member of the Faker.js organization, contribute code, review pull requests, and triage issues.",
       image: '/images/faker.png',
       tags: ['JavaScript', 'TypeScript', 'Node.js'],
     source: 'https://github.com/faker-js/faker',
