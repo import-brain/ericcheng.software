@@ -67,7 +67,7 @@ export const projects = [
 export const timelineElements = [
   {
     id: 1,
-    title: "Head of Web Development",
+    title: "Vice President of Technology",
     location: "Pitch Labs",
     description: "Led a collaborative team of developers and designers to build a website (pitchlabs.org) from the ground up using the latest web technologies, such as TypeScript, Next.js, React.js, Chakra-UI, and TailwindCSS for a nonprofit organization that provides business education to users.",
     date: "Feb. 2022",
