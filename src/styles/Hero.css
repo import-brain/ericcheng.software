@@ -1,0 +1,9 @@
+#open-source-link {
+    transition: 0.375s ease;
+    color: #42d392;
+}
+
+#open-source-link:hover {
+    cursor: pointer;
+    color: #1cff99;
+}

@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/Hero.css'
 import Theme from '../styles/theme';
 import '../components/Technologies/Technologies.css'
 
