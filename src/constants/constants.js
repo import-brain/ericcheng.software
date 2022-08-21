@@ -75,9 +75,9 @@ export const timelineElements = [
   },
   {
     id: 2,
-    title: "Website Developer",
+    title: "Senior Web Developer",
     location: "Revoteen",
-    description: "Collaborated with other developers in a live production environment to build, maintain, and enhance a social media web application using TypeScript, React, Node.js, and other development tools.",
+    description: "Collaborated with other developers in a live production environment to build, maintain, and enhance a social media web application using TypeScript, React, Node.js, and other development tools. Mentored multiple junior developers in website architecture.",
     date: "Feb. 2022",
     icon: "work"
   },
