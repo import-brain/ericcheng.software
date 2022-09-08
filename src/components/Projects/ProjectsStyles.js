@@ -53,7 +53,7 @@ export const Hr = styled.hr`
   margin: 20px auto;
   border: 0;
   border-radius: 2px;
-  background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+  background: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
 `;
 
 export const Intro = styled.div`
